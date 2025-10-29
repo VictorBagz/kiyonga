@@ -2,7 +2,7 @@
   "name": "kiyonga-law-firm",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://VictorBagz.github.io/kiyonga",
+  "homepage": "/",
   "dependencies": {
     "framer-motion": "^8.5.0",
     "react": "^18.2.0",
