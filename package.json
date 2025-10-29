@@ -2,7 +2,7 @@
   "name": "kiyonga-law-firm",
   "version": "1.0.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://victorbagz.github.io/kiyonga/",
   "dependencies": {
     "framer-motion": "^8.5.0",
     "react": "^18.2.0",
@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
