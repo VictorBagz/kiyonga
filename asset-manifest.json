@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/kiyonga/static/css/main.c46e73e0.css",
+    "main.js": "/kiyonga/static/js/main.0447dd0a.js",
+    "static/media/dominic.jpg": "/kiyonga/static/media/dominic.6907ad384a5bb0a1ab0c.jpg",
+    "static/media/ramlah.jpg": "/kiyonga/static/media/ramlah.d3954dc79ed52ca08812.jpg",
+    "static/media/carol.jpg": "/kiyonga/static/media/carol.a9056b5718afd524a300.jpg",
+    "static/media/justice lady.jpg": "/kiyonga/static/media/justice lady.938fc1c9589793a745f0.jpg",
+    "static/media/zabina.jpg": "/kiyonga/static/media/zabina.6788a2b0f13917d4a603.jpg",
+    "static/media/bosco.jpg": "/kiyonga/static/media/bosco.84b4205f5ab36ae645de.jpg",
+    "static/media/elizabeth.jpg": "/kiyonga/static/media/elizabeth.77da8a80decf78099850.jpg",
+    "static/media/collins.jpg": "/kiyonga/static/media/collins.8ca4c3629d18a6ee26c6.jpg",
+    "static/media/munira.jpeg": "/kiyonga/static/media/munira.fd0f0a0dbb0be9cb24d2.jpeg",
+    "static/media/ritah.jpeg": "/kiyonga/static/media/ritah.b8c0fcaadac10c1cc5cb.jpeg",
+    "index.html": "/kiyonga/index.html",
+    "main.c46e73e0.css.map": "/kiyonga/static/css/main.c46e73e0.css.map",
+    "main.0447dd0a.js.map": "/kiyonga/static/js/main.0447dd0a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c46e73e0.css",
+    "static/js/main.0447dd0a.js"
+  ]
+}
