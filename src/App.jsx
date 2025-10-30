@@ -12,7 +12,7 @@ import './styles/Animations.css';
 
 function App() {
   return (
-    <Router basename="/kiyonga">
+    <Router basename="/">
       <div className="App">
         <Header />
         <main className="main-content">
