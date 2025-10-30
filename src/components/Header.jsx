@@ -13,7 +13,7 @@ const Header = () => {
     <header className="header">
       <nav className="nav-container">
         <div className="logo">KIYONGA -B- ASASIRA & CO.</div>
-        <button className="mobile-menu-btn" onClick={toggleMenu}>
+        <button className={`mobile-menu-btn ${isMenuOpen ? 'nav-active' : ''}`} onClick={toggleMenu}>
           <span className="menu-icon"></span>
         </button>
         <ul className={`nav-links ${isMenuOpen ? 'nav-active' : ''}`}>

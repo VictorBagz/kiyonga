@@ -308,7 +308,7 @@ body {
   height: 2px;
   background-color: var(--white);
   position: relative;
-  transition: background-color 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-icon::before,
@@ -318,7 +318,7 @@ body {
   width: 25px;
   height: 2px;
   background-color: var(--white);
-  transition: transform 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 .menu-icon::before {
@@ -327,6 +327,21 @@ body {
 
 .menu-icon::after {
   bottom: -8px;
+}
+
+/* Menu Icon Animation */
+.mobile-menu-btn.nav-active .menu-icon {
+  background-color: transparent;
+}
+
+.mobile-menu-btn.nav-active .menu-icon::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.mobile-menu-btn.nav-active .menu-icon::after {
+  bottom: 0;
+  transform: rotate(-45deg);
 }
 
 /* Responsive Styles */
@@ -368,13 +383,34 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transition: right 0.3s ease;
+    transition: all 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
     z-index: 1000;
+    opacity: 0;
   }
 
   .nav-links.nav-active {
     right: 0;
+    opacity: 1;
   }
+
+  .nav-links li {
+    margin: 1.5rem 0;
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.5s ease;
+  }
+
+  .nav-links.nav-active li {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* Stagger the animation for each nav item */
+  .nav-links li:nth-child(1) { transition-delay: 0.2s; }
+  .nav-links li:nth-child(2) { transition-delay: 0.3s; }
+  .nav-links li:nth-child(3) { transition-delay: 0.4s; }
+  .nav-links li:nth-child(4) { transition-delay: 0.5s; }
+  .nav-links li:nth-child(5) { transition-delay: 0.6s; }
 
   .nav-links li {
     margin: 1.5rem 0;
